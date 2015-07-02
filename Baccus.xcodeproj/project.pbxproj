@@ -1,0 +1,495 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C038496E1B161BF60006B9F9 /* splitView_score_glass@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C038496D1B161BF60006B9F9 /* splitView_score_glass@2x.png */; };
+		C0448B3B1B20FFF700544846 /* comtesDeChampagne.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C0448B3A1B20FFF700544846 /* comtesDeChampagne.jpg */; };
+		C0448B3D1B20FFFF00544846 /* zarate.gif in Resources */ = {isa = PBXBuildFile; fileRef = C0448B3C1B20FFFF00544846 /* zarate.gif */; };
+		C05CF7D91B13790D0037A0D0 /* AGTWineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C05CF7D71B13790D0037A0D0 /* AGTWineViewController.m */; };
+		C05CF7DA1B13790D0037A0D0 /* AGTWineViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C05CF7D81B13790D0037A0D0 /* AGTWineViewController.xib */; };
+		C06E8F5A1B1CD81600F75AFE /* bembibre.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C06E8F591B1CD81600F75AFE /* bembibre.jpg */; };
+		C0B411DE1B22009B00ADBF97 /* AGTWineryModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C0B411DD1B22009B00ADBF97 /* AGTWineryModel.m */; };
+		C0B411E11B22066700ADBF97 /* AGTWineryTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0B411E01B22066700ADBF97 /* AGTWineryTableViewController.m */; };
+		C0C8D5F91B11F2BC00D99461 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C0C8D5F81B11F2BC00D99461 /* main.m */; };
+		C0C8D5FC1B11F2BC00D99461 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C0C8D5FB1B11F2BC00D99461 /* AppDelegate.m */; };
+		C0C8D5FE1B11F2BC00D99461 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0C8D5FD1B11F2BC00D99461 /* Images.xcassets */; };
+		C0C8D6011B11F2BC00D99461 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C0C8D5FF1B11F2BC00D99461 /* LaunchScreen.xib */; };
+		C0C8D60D1B11F2BC00D99461 /* BaccusTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C0C8D60C1B11F2BC00D99461 /* BaccusTests.m */; };
+		C0C8D6181B11F32100D99461 /* AGTWineModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C0C8D6171B11F32100D99461 /* AGTWineModel.m */; };
+		C0CE48D71B1F4CD3003D2150 /* AGTWebController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0CE48D51B1F4CD3003D2150 /* AGTWebController.m */; };
+		C0CE48D81B1F4CD3003D2150 /* AGTWebController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C0CE48D61B1F4CD3003D2150 /* AGTWebController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C0C8D6071B11F2BC00D99461 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C0C8D5EB1B11F2BC00D99461 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C0C8D5F21B11F2BC00D99461;
+			remoteInfo = Baccus;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C038496D1B161BF60006B9F9 /* splitView_score_glass@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "splitView_score_glass@2x.png"; sourceTree = "<group>"; };
+		C0448B3A1B20FFF700544846 /* comtesDeChampagne.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = comtesDeChampagne.jpg; sourceTree = "<group>"; };
+		C0448B3C1B20FFFF00544846 /* zarate.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = zarate.gif; sourceTree = "<group>"; };
+		C05CF7D61B13790D0037A0D0 /* AGTWineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGTWineViewController.h; sourceTree = "<group>"; };
+		C05CF7D71B13790D0037A0D0 /* AGTWineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGTWineViewController.m; sourceTree = "<group>"; };
+		C05CF7D81B13790D0037A0D0 /* AGTWineViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AGTWineViewController.xib; sourceTree = "<group>"; };
+		C06E8F591B1CD81600F75AFE /* bembibre.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bembibre.jpg; sourceTree = "<group>"; };
+		C0B411DC1B22009B00ADBF97 /* AGTWineryModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGTWineryModel.h; sourceTree = "<group>"; };
+		C0B411DD1B22009B00ADBF97 /* AGTWineryModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGTWineryModel.m; sourceTree = "<group>"; };
+		C0B411DF1B22066700ADBF97 /* AGTWineryTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGTWineryTableViewController.h; sourceTree = "<group>"; };
+		C0B411E01B22066700ADBF97 /* AGTWineryTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGTWineryTableViewController.m; sourceTree = "<group>"; };
+		C0C8D5F31B11F2BC00D99461 /* Baccus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Baccus.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0C8D5F71B11F2BC00D99461 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0C8D5F81B11F2BC00D99461 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C0C8D5FA1B11F2BC00D99461 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C0C8D5FB1B11F2BC00D99461 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C0C8D5FD1B11F2BC00D99461 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C0C8D6001B11F2BC00D99461 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		C0C8D6061B11F2BC00D99461 /* BaccusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BaccusTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0C8D60B1B11F2BC00D99461 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0C8D60C1B11F2BC00D99461 /* BaccusTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaccusTests.m; sourceTree = "<group>"; };
+		C0C8D6161B11F32100D99461 /* AGTWineModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGTWineModel.h; sourceTree = "<group>"; };
+		C0C8D6171B11F32100D99461 /* AGTWineModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGTWineModel.m; sourceTree = "<group>"; };
+		C0CE48D41B1F4CD3003D2150 /* AGTWebController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AGTWebController.h; path = ../AGTWebController.h; sourceTree = "<group>"; };
+		C0CE48D51B1F4CD3003D2150 /* AGTWebController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AGTWebController.m; path = ../AGTWebController.m; sourceTree = "<group>"; };
+		C0CE48D61B1F4CD3003D2150 /* AGTWebController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = AGTWebController.xib; path = ../AGTWebController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C0C8D5F01B11F2BC00D99461 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0C8D6031B11F2BC00D99461 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C038496F1B161BFA0006B9F9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C0448B3A1B20FFF700544846 /* comtesDeChampagne.jpg */,
+				C06E8F591B1CD81600F75AFE /* bembibre.jpg */,
+				C0448B3C1B20FFFF00544846 /* zarate.gif */,
+				C038496D1B161BF60006B9F9 /* splitView_score_glass@2x.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		C05CF7DB1B1379530037A0D0 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C0CE48D41B1F4CD3003D2150 /* AGTWebController.h */,
+				C0CE48D51B1F4CD3003D2150 /* AGTWebController.m */,
+				C0CE48D61B1F4CD3003D2150 /* AGTWebController.xib */,
+				C05CF7D61B13790D0037A0D0 /* AGTWineViewController.h */,
+				C05CF7D71B13790D0037A0D0 /* AGTWineViewController.m */,
+				C05CF7D81B13790D0037A0D0 /* AGTWineViewController.xib */,
+				C0B411DF1B22066700ADBF97 /* AGTWineryTableViewController.h */,
+				C0B411E01B22066700ADBF97 /* AGTWineryTableViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		C0C8D5EA1B11F2BC00D99461 = {
+			isa = PBXGroup;
+			children = (
+				C0C8D5F51B11F2BC00D99461 /* Baccus */,
+				C0C8D6091B11F2BC00D99461 /* BaccusTests */,
+				C0C8D5F41B11F2BC00D99461 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C0C8D5F41B11F2BC00D99461 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C0C8D5F31B11F2BC00D99461 /* Baccus.app */,
+				C0C8D6061B11F2BC00D99461 /* BaccusTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C0C8D5F51B11F2BC00D99461 /* Baccus */ = {
+			isa = PBXGroup;
+			children = (
+				C038496F1B161BFA0006B9F9 /* Resources */,
+				C05CF7DB1B1379530037A0D0 /* Controllers */,
+				C0C8D6191B11F33C00D99461 /* Models */,
+				C0C8D5FA1B11F2BC00D99461 /* AppDelegate.h */,
+				C0C8D5FB1B11F2BC00D99461 /* AppDelegate.m */,
+				C0C8D5FD1B11F2BC00D99461 /* Images.xcassets */,
+				C0C8D5FF1B11F2BC00D99461 /* LaunchScreen.xib */,
+				C0C8D5F61B11F2BC00D99461 /* Supporting Files */,
+			);
+			path = Baccus;
+			sourceTree = "<group>";
+		};
+		C0C8D5F61B11F2BC00D99461 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C0C8D5F71B11F2BC00D99461 /* Info.plist */,
+				C0C8D5F81B11F2BC00D99461 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C0C8D6091B11F2BC00D99461 /* BaccusTests */ = {
+			isa = PBXGroup;
+			children = (
+				C0C8D60C1B11F2BC00D99461 /* BaccusTests.m */,
+				C0C8D60A1B11F2BC00D99461 /* Supporting Files */,
+			);
+			path = BaccusTests;
+			sourceTree = "<group>";
+		};
+		C0C8D60A1B11F2BC00D99461 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C0C8D60B1B11F2BC00D99461 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C0C8D6191B11F33C00D99461 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C0C8D6161B11F32100D99461 /* AGTWineModel.h */,
+				C0C8D6171B11F32100D99461 /* AGTWineModel.m */,
+				C0B411DC1B22009B00ADBF97 /* AGTWineryModel.h */,
+				C0B411DD1B22009B00ADBF97 /* AGTWineryModel.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C0C8D5F21B11F2BC00D99461 /* Baccus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0C8D6101B11F2BC00D99461 /* Build configuration list for PBXNativeTarget "Baccus" */;
+			buildPhases = (
+				C0C8D5EF1B11F2BC00D99461 /* Sources */,
+				C0C8D5F01B11F2BC00D99461 /* Frameworks */,
+				C0C8D5F11B11F2BC00D99461 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Baccus;
+			productName = Baccus;
+			productReference = C0C8D5F31B11F2BC00D99461 /* Baccus.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C0C8D6051B11F2BC00D99461 /* BaccusTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0C8D6131B11F2BC00D99461 /* Build configuration list for PBXNativeTarget "BaccusTests" */;
+			buildPhases = (
+				C0C8D6021B11F2BC00D99461 /* Sources */,
+				C0C8D6031B11F2BC00D99461 /* Frameworks */,
+				C0C8D6041B11F2BC00D99461 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C0C8D6081B11F2BC00D99461 /* PBXTargetDependency */,
+			);
+			name = BaccusTests;
+			productName = BaccusTests;
+			productReference = C0C8D6061B11F2BC00D99461 /* BaccusTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C0C8D5EB1B11F2BC00D99461 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = GGS;
+				TargetAttributes = {
+					C0C8D5F21B11F2BC00D99461 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					C0C8D6051B11F2BC00D99461 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = C0C8D5F21B11F2BC00D99461;
+					};
+				};
+			};
+			buildConfigurationList = C0C8D5EE1B11F2BC00D99461 /* Build configuration list for PBXProject "Baccus" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C0C8D5EA1B11F2BC00D99461;
+			productRefGroup = C0C8D5F41B11F2BC00D99461 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C0C8D5F21B11F2BC00D99461 /* Baccus */,
+				C0C8D6051B11F2BC00D99461 /* BaccusTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C0C8D5F11B11F2BC00D99461 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C038496E1B161BF60006B9F9 /* splitView_score_glass@2x.png in Resources */,
+				C0448B3B1B20FFF700544846 /* comtesDeChampagne.jpg in Resources */,
+				C05CF7DA1B13790D0037A0D0 /* AGTWineViewController.xib in Resources */,
+				C0C8D6011B11F2BC00D99461 /* LaunchScreen.xib in Resources */,
+				C06E8F5A1B1CD81600F75AFE /* bembibre.jpg in Resources */,
+				C0448B3D1B20FFFF00544846 /* zarate.gif in Resources */,
+				C0C8D5FE1B11F2BC00D99461 /* Images.xcassets in Resources */,
+				C0CE48D81B1F4CD3003D2150 /* AGTWebController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0C8D6041B11F2BC00D99461 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C0C8D5EF1B11F2BC00D99461 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0CE48D71B1F4CD3003D2150 /* AGTWebController.m in Sources */,
+				C05CF7D91B13790D0037A0D0 /* AGTWineViewController.m in Sources */,
+				C0C8D5FC1B11F2BC00D99461 /* AppDelegate.m in Sources */,
+				C0C8D6181B11F32100D99461 /* AGTWineModel.m in Sources */,
+				C0B411DE1B22009B00ADBF97 /* AGTWineryModel.m in Sources */,
+				C0B411E11B22066700ADBF97 /* AGTWineryTableViewController.m in Sources */,
+				C0C8D5F91B11F2BC00D99461 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0C8D6021B11F2BC00D99461 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0C8D60D1B11F2BC00D99461 /* BaccusTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C0C8D6081B11F2BC00D99461 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C0C8D5F21B11F2BC00D99461 /* Baccus */;
+			targetProxy = C0C8D6071B11F2BC00D99461 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C0C8D5FF1B11F2BC00D99461 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C0C8D6001B11F2BC00D99461 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C0C8D60E1B11F2BC00D99461 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C0C8D60F1B11F2BC00D99461 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C0C8D6111B11F2BC00D99461 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Baccus/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		C0C8D6121B11F2BC00D99461 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Baccus/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+		C0C8D6141B11F2BC00D99461 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BaccusTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Baccus.app/Baccus";
+			};
+			name = Debug;
+		};
+		C0C8D6151B11F2BC00D99461 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BaccusTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Baccus.app/Baccus";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C0C8D5EE1B11F2BC00D99461 /* Build configuration list for PBXProject "Baccus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0C8D60E1B11F2BC00D99461 /* Debug */,
+				C0C8D60F1B11F2BC00D99461 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0C8D6101B11F2BC00D99461 /* Build configuration list for PBXNativeTarget "Baccus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0C8D6111B11F2BC00D99461 /* Debug */,
+				C0C8D6121B11F2BC00D99461 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0C8D6131B11F2BC00D99461 /* Build configuration list for PBXNativeTarget "BaccusTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0C8D6141B11F2BC00D99461 /* Debug */,
+				C0C8D6151B11F2BC00D99461 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C0C8D5EB1B11F2BC00D99461 /* Project object */;
+}
